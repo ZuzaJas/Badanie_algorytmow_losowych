@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 18f50909ad3bbc441a9895f4e6572608
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - tilePrefab: {instanceID: 0}
+  - saveSystem: {instanceID: 0}
+  - postac: {instanceID: 0}
+  - cam: {instanceID: 0}
+  - enemy_prefab: {instanceID: 0}
+  - GenDungeon: {instanceID: 0}
+  - GenEnemies: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

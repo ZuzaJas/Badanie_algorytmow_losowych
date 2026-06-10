@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5271830478296773954
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9073446837865080030}
+  - component: {fileID: 7535641488841268407}
+  m_Layer: 0
+  m_Name: TileManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9073446837865080030
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5271830478296773954}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.41318, y: -0.50721, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7535641488841268407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5271830478296773954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18f50909ad3bbc441a9895f4e6572608, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  tilePrefab: {fileID: 1157697848316397960, guid: 529dd23efa7228a40a2dfd2341894182, type: 3}
+  saveSystem: {fileID: 0}
+  postac: {fileID: 0}
+  cam: {fileID: 0}
+  enemy_prefab: {fileID: 5782501369410583230, guid: a635d76574bb9be49940da5d619c09df, type: 3}
+  GenDungeon: {fileID: 6908065965157230756, guid: fda6d2fb5c7565b4e8adfd21980481c7, type: 3}
+  GenEnemies: {fileID: 1553908122728663072, guid: bdaf03c6eff8f3a46a8184c835603161, type: 3}
+  width: 20
+  height: 20
+  safe_rooms: 0
+  danger_rooms: 0
+  path_to_door: 0
+  grid_with_rooms: {x: 0, y: 0}
+  tileWidth: 0
+  tileHeight: 0
+  enemy_pos_save: []
